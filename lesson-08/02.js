@@ -6,8 +6,8 @@
 function isNumeric(str) {
   if (str.trim() === "") {
     return false
-  } else if (!Number.isNaN(Number(str))) {
-    return true
+  } else {
+    return !Number.isNaN(Number(str))
   }
 }
 
